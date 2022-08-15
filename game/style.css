@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    background-color: #0d0d0d;
+}
+
+#tv{
+    position: absolute;
+    top: 121px;
+    left: 930px;
+    z-index: -1;
+    width: 300px;
+}
+
+#message {
+  position: relative;
+  top: 520px;
+  color: #fff;
+}
+
+#museum{
+    position: absolute;
+    top: 163px;
+    left: 945px;
+    height: 178px;
+    width: 269px;
+}
+
+#newsText{
+    position: relative;
+    width: 269px;
+    top: 304px;
+    left: 945px;
+    color: #000;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+#you{
+    position: absolute;
+    top: 136px;
+    left: 104px;
+    width: 233px;
+    height: 295px;
+    z-index: -1;
+    transform: rotateY(180deg);
+}
+
+#trainBut{
+    background-color: #fff;
+    border: 1px solid red;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 10;
+    top: 578px;
+    left: 86px;
+    display: none;
+}
